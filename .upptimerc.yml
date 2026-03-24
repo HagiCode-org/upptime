@@ -1,36 +1,40 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: HagiCode-org
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: HagiCode Website
+    url: https://hagicode.com
+  - name: HagiCode Docs
+    url: https://docs.hagicode.com
+  - name: Docker Compose Builder
+    url: https://builder.hagicode.com
+  - name: AI Cost Calculator
+    url: https://cost.hagicode.com
+  - name: HagiCode Index
+    url: https://index.hagicode.com
+  - name: Server Package Index
+    url: https://index.hagicode.com/server/index.json
+  - name: Desktop Package Index
+    url: https://index.hagicode.com/desktop/index.json
+  - name: Docs Preset Index
+    url: https://docs.hagicode.com/presets/index.json
+  - name: Desktop Download Index
+    url: https://desktop.dl.hagicode.com/index.json
+  - name: Server Download Index
+    url: https://server.dl.hagicode.com/index.json
+  - name: Soul Builder
+    url: https://soul.hagicode.com
+  - name: Trait Builder
+    url: https://trait.hagicode.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.hagicode.com
+  logoUrl: https://raw.githubusercontent.com/HagiCode-org/upptime/master/assets/upptime-icon.svg
+  name: HagiCode Status
+  introTitle: "**HagiCode Status**"
+  introMessage: Real-time availability tracking for public HagiCode websites and download endpoints.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
