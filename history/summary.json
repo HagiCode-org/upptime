@@ -166,19 +166,19 @@
     "url": "https://server.dl.hagicode.com/index.json",
     "icon": "https://icons.duckduckgo.com/ip3/server.dl.hagicode.com.ico",
     "slug": "server-download-index",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 2358,
-    "timeDay": 3978,
-    "timeWeek": 2446,
-    "timeMonth": 2358,
-    "timeYear": 2358,
+    "status": "up",
+    "uptime": "99.73%",
+    "uptimeDay": "97.93%",
+    "uptimeWeek": "99.70%",
+    "uptimeMonth": "99.73%",
+    "uptimeYear": "99.73%",
+    "time": 2388,
+    "timeDay": 3538,
+    "timeWeek": 2470,
+    "timeMonth": 2388,
+    "timeYear": 2388,
     "dailyMinutesDown": {
-      "2026-03-31": 0
+      "2026-03-31": 30
     }
   },
   {
