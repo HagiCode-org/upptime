@@ -130,19 +130,19 @@
     "url": "https://docs.hagicode.com/presets/index.json",
     "icon": "https://icons.duckduckgo.com/ip3/docs.hagicode.com.ico",
     "slug": "docs-preset-index",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 391,
-    "timeDay": 646,
-    "timeWeek": 438,
-    "timeMonth": 403,
-    "timeYear": 391,
+    "status": "up",
+    "uptime": "99.93%",
+    "uptimeDay": "97.81%",
+    "uptimeWeek": "99.69%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.93%",
+    "time": 395,
+    "timeDay": 589,
+    "timeWeek": 450,
+    "timeMonth": 407,
+    "timeYear": 395,
     "dailyMinutesDown": {
-      "2026-04-26": 1
+      "2026-04-26": 32
     }
   },
   {
