@@ -6,10 +6,16 @@ sites:
     url: https://hagicode.com
   - name: HagiCode Docs
     url: https://docs.hagicode.com
+  - name: newbe
+    url: https://newbe.hagicode.com
   - name: Docker Compose Builder
     url: https://builder.hagicode.com
   - name: AI Cost Calculator
     url: https://cost.hagicode.com
+  - name: HagiCode Status
+    url: https://status.hagicode.com
+  - name: Awesome Design MD
+    url: https://design.hagicode.com
   - name: HagiCode Index
     url: https://index.hagicode.com
   - name: Server Package Index
