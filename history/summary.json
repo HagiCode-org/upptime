@@ -4,19 +4,19 @@
     "url": "https://hagicode.com",
     "icon": "https://icons.duckduckgo.com/ip3/hagicode.com.ico",
     "slug": "hagi-code-website",
-    "status": "down",
-    "uptime": "99.81%",
-    "uptimeDay": "92.18%",
-    "uptimeWeek": "98.88%",
-    "uptimeMonth": "99.74%",
-    "uptimeYear": "99.81%",
-    "time": 975,
-    "timeDay": 698,
-    "timeWeek": 965,
-    "timeMonth": 935,
-    "timeYear": 975,
+    "status": "up",
+    "uptime": "99.67%",
+    "uptimeDay": "86.52%",
+    "uptimeWeek": "98.07%",
+    "uptimeMonth": "99.56%",
+    "uptimeYear": "99.67%",
+    "time": 956,
+    "timeDay": 513,
+    "timeWeek": 883,
+    "timeMonth": 911,
+    "timeYear": 956,
     "dailyMinutesDown": {
-      "2026-05-04": 113
+      "2026-05-04": 194
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://docs.hagicode.com",
     "icon": "https://icons.duckduckgo.com/ip3/docs.hagicode.com.ico",
     "slug": "hagi-code-docs",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1017,
-    "timeDay": 659,
-    "timeWeek": 961,
-    "timeMonth": 1026,
-    "timeYear": 1017,
+    "status": "up",
+    "uptime": "99.86%",
+    "uptimeDay": "94.31%",
+    "uptimeWeek": "99.19%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.86%",
+    "time": 1021,
+    "timeDay": 829,
+    "timeWeek": 982,
+    "timeMonth": 1030,
+    "timeYear": 1021,
     "dailyMinutesDown": {
-      "2026-05-04": 0
+      "2026-05-04": 82
     }
   },
   {
