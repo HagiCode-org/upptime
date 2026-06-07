@@ -1,0 +1,5 @@
+action_recommendations:
+  - id: site
+    watch: true
+    include: true
+    reason: "build and deploy the status site"
