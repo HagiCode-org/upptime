@@ -22,8 +22,6 @@ sites:
     url: https://index.hagicode.com/server/index.json
   - name: Desktop Package Index
     url: https://index.hagicode.com/desktop/index.json
-  - name: Docs Preset Index
-    url: https://docs.hagicode.com/presets/index.json
   - name: Desktop Download Index
     url: https://desktop.dl.hagicode.com/index.json
   - name: Server Download Index
