@@ -14,6 +14,9 @@
 # * More by Anand Chowdhary: https://anandchowdhary.com
 
 
+env:
+  UPPTIME_GH_PAT: ${{ secrets.GH_PAT }}
+
 name: Setup CI
 on:
   push:
@@ -27,17 +30,22 @@ jobs:
     name: Setup Upptime
     runs-on: ubuntu-latest
     steps:
+      - name: Skip template update without GH_PAT
+        if: ${{ env.UPPTIME_GH_PAT == '' }}
+        run: |
+          echo "::warning title=Template update skipped::Set GH_PAT with repo and workflow permissions if you want Upptime to regenerate files under .github/workflows/."
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Update template
+        if: ${{ env.UPPTIME_GH_PAT != '' }}
         uses: upptime/uptime-monitor@v1.41.0
         with:
           command: "update-template"
         env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+          GH_PAT: ${{ secrets.GH_PAT }}
       - name: Update response time
         uses: upptime/uptime-monitor@v1.41.0
         with:
