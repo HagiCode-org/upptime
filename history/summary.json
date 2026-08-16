@@ -280,5 +280,23 @@
       "2026-05-19": 179,
       "2026-06-04": 10
     }
+  },
+  {
+    "name": "HagiTask",
+    "url": "https://tasks.hagicode.com",
+    "icon": "https://icons.duckduckgo.com/ip3/tasks.hagicode.com.ico",
+    "slug": "hagi-task",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 1660,
+    "timeDay": 1660,
+    "timeWeek": 1660,
+    "timeMonth": 1660,
+    "timeYear": 1660,
+    "dailyMinutesDown": {}
   }
 ]
