@@ -30,6 +30,8 @@ sites:
     url: https://soul.hagicode.com
   - name: Trait Builder
     url: https://trait.hagicode.com
+  - name: HagiTask
+    url: https://tasks.hagicode.com
 
 status-website:
   cname: status.hagicode.com
