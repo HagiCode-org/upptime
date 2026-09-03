@@ -5,15 +5,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/hagicode.com.ico",
     "slug": "hagi-code-website",
     "status": "up",
-    "uptime": "99.09%",
+    "uptime": "99.10%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "95.87%",
-    "uptimeYear": "99.09%",
+    "uptimeYear": "99.10%",
     "time": 562,
     "timeDay": 0,
     "timeWeek": 914,
-    "timeMonth": 1136,
+    "timeMonth": 1129,
     "timeYear": 562,
     "dailyMinutesDown": {
       "2026-05-04": 194,
@@ -28,15 +28,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/docs.hagicode.com.ico",
     "slug": "hagi-code-docs",
     "status": "up",
-    "uptime": "99.96%",
+    "uptime": "99.97%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.96%",
+    "uptimeYear": "99.97%",
     "time": 372,
     "timeDay": 0,
     "timeWeek": 94,
-    "timeMonth": 122,
+    "timeMonth": 123,
     "timeYear": 372,
     "dailyMinutesDown": {
       "2026-05-04": 82
@@ -56,7 +56,7 @@
     "time": 1355,
     "timeDay": 0,
     "timeWeek": 1145,
-    "timeMonth": 1130,
+    "timeMonth": 1125,
     "timeYear": 1355,
     "dailyMinutesDown": {
       "2026-06-04": 15
@@ -76,7 +76,7 @@
     "time": 1205,
     "timeDay": 0,
     "timeWeek": 795,
-    "timeMonth": 979,
+    "timeMonth": 960,
     "timeYear": 1205,
     "dailyMinutesDown": {
       "2026-06-04": 14
@@ -96,7 +96,7 @@
     "time": 1264,
     "timeDay": 0,
     "timeWeek": 1398,
-    "timeMonth": 1181,
+    "timeMonth": 1172,
     "timeYear": 1264,
     "dailyMinutesDown": {
       "2026-06-04": 14
@@ -116,7 +116,7 @@
     "time": 1421,
     "timeDay": 0,
     "timeWeek": 1032,
-    "timeMonth": 1496,
+    "timeMonth": 1462,
     "timeYear": 1421,
     "dailyMinutesDown": {
       "2026-06-04": 13
@@ -136,7 +136,7 @@
     "time": 1603,
     "timeDay": 0,
     "timeWeek": 1518,
-    "timeMonth": 1308,
+    "timeMonth": 1309,
     "timeYear": 1603,
     "dailyMinutesDown": {
       "2026-06-04": 13
@@ -156,7 +156,7 @@
     "time": 1111,
     "timeDay": 0,
     "timeWeek": 1017,
-    "timeMonth": 1010,
+    "timeMonth": 989,
     "timeYear": 1111,
     "dailyMinutesDown": {
       "2026-06-04": 12
@@ -176,7 +176,7 @@
     "time": 597,
     "timeDay": 0,
     "timeWeek": 546,
-    "timeMonth": 591,
+    "timeMonth": 609,
     "timeYear": 597,
     "dailyMinutesDown": {
       "2026-06-04": 12
@@ -196,7 +196,7 @@
     "time": 600,
     "timeDay": 0,
     "timeWeek": 606,
-    "timeMonth": 785,
+    "timeMonth": 760,
     "timeYear": 600,
     "dailyMinutesDown": {
       "2026-06-04": 11
@@ -234,7 +234,7 @@
     "time": 1414,
     "timeDay": 0,
     "timeWeek": 1201,
-    "timeMonth": 1140,
+    "timeMonth": 1144,
     "timeYear": 1414,
     "dailyMinutesDown": {
       "2026-03-31": 30
@@ -254,7 +254,7 @@
     "time": 1146,
     "timeDay": 0,
     "timeWeek": 1492,
-    "timeMonth": 1163,
+    "timeMonth": 1161,
     "timeYear": 1146,
     "dailyMinutesDown": {
       "2026-03-25": 76,
@@ -267,15 +267,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/trait.hagicode.com.ico",
     "slug": "trait-builder",
     "status": "up",
-    "uptime": "99.82%",
+    "uptime": "99.83%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.82%",
+    "uptimeYear": "99.83%",
     "time": 1884,
     "timeDay": 0,
     "timeWeek": 2170,
-    "timeMonth": 1919,
+    "timeMonth": 1888,
     "timeYear": 1884,
     "dailyMinutesDown": {
       "2026-05-14": 218,
