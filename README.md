@@ -10,6 +10,103 @@ This repository contains the open-source uptime monitor and status page for [Hag
 
 With [Upptime](https://upptime.js.org), you can get your own unlimited and free uptime monitor and status page, powered entirely by a GitHub repository. We use [Issues](https://github.com/HagiCode-org/upptime/issues) as incident reports, [Actions](https://github.com/HagiCode-org/upptime/actions) as uptime monitors, and [Pages](https://status.hagicode.com) for the status page.
 
+## Public site and resource coverage
+
+There are 15 public sites with four independent checks each (60 monitors), plus the four existing package/download JSON monitors (64 total). The 14-site initial inventory is extended by the live Hagilight Astro demo at `hagilight.hagicode.com`. The separate Starlight example at `hagistar.hagicode.com` is not included: its deployment workflow only publishes a branch, and the Hagilight deployment guide says no hosting consumer is configured. `www.hagicode.com` is the canonical alias for the existing HagiCode Website monitor; its homepage identity remains at `https://hagicode.com`. The related-sites catalog entry `https://index.hagicode.com/data/` is a subpath of HagiCode Index, not another site.
+
+The table records the configured URL, the bounded GET result, and the expected literal body marker for each discovery resource. `marker found` and `marker missing` are literal substring results, not XML or feed validation.
+
+| Site | Homepage GET | Sitemap GET (`http://www.sitemaps.org/schemas/sitemap/0.9`) | Robots GET (`User-agent:`) | Default RSS GET (`<rss`) |
+| --- | --- | --- | --- | --- |
+| HagiCode Website | `https://hagicode.com` — 200; effective `https://www.hagicode.com/` | `https://www.hagicode.com/sitemap-index.xml` — 200, found | `https://www.hagicode.com/robots.txt` — 200, found | `https://www.hagicode.com/rss.xml` — 200, missing |
+| HagiCode Docs | `https://docs.hagicode.com` — 200; effective `https://docs.hagicode.com/` | `https://docs.hagicode.com/sitemap-index.xml` — 200, found | `https://docs.hagicode.com/robots.txt` — 200, found | `https://docs.hagicode.com/rss.xml` — 200, found |
+| newbe | `https://newbe.hagicode.com` — 200; effective `https://newbe.hagicode.com/` | `https://newbe.hagicode.com/sitemap.xml` — 200, found | `https://newbe.hagicode.com/robots.txt` — 200, found | `https://newbe.hagicode.com/rss.xml` — 200, missing |
+| Docker Compose Builder | `https://builder.hagicode.com` — 200; effective `https://builder.hagicode.com/` | `https://builder.hagicode.com/sitemap.xml` — 200, found | `https://builder.hagicode.com/robots.txt` — 200, found | `https://builder.hagicode.com/rss.xml` — 200, missing |
+| AI Cost Calculator | `https://cost.hagicode.com` — 200; effective `https://cost.hagicode.com/` | `https://cost.hagicode.com/sitemap.xml` — 200, found | `https://cost.hagicode.com/robots.txt` — 200, found | `https://cost.hagicode.com/rss.xml` — 200, missing |
+| HagiCode Status | `https://status.hagicode.com` — 200; effective `https://status.hagicode.com/` | `https://status.hagicode.com/sitemap.xml` — 404, missing | `https://status.hagicode.com/robots.txt` — 404, missing | `https://status.hagicode.com/rss.xml` — 404, missing |
+| Awesome Design MD | `https://design.hagicode.com` — 200; effective `https://design.hagicode.com/` | `https://design.hagicode.com/sitemap-index.xml` — 200, found | `https://design.hagicode.com/robots.txt` — 200, found | `https://design.hagicode.com/rss.xml` — 200, missing |
+| HagiCode Index | `https://index.hagicode.com` — 200; effective `https://index.hagicode.com/` | `https://index.hagicode.com/sitemap-index.xml` — 200, found | `https://index.hagicode.com/robots.txt` — 200, found | `https://index.hagicode.com/rss.xml` — 200, missing |
+| Soul Builder | `https://soul.hagicode.com` — 200; effective `https://soul.hagicode.com/` | `https://soul.hagicode.com/sitemap.xml` — 200, found | `https://soul.hagicode.com/robots.txt` — 200, found | `https://soul.hagicode.com/rss.xml` — 200, missing |
+| Trait Builder | `https://trait.hagicode.com` — 200; effective `https://trait.hagicode.com/` | `https://trait.hagicode.com/sitemap-index.xml` — 200, found | `https://trait.hagicode.com/robots.txt` — 200, found | `https://trait.hagicode.com/rss.xml` — 200, missing |
+| HagiTask | `https://tasks.hagicode.com` — 200; effective `https://tasks.hagicode.com/` | `https://tasks.hagicode.com/sitemap-index.xml` — 200, found | `https://tasks.hagicode.com/robots.txt` — 200, found | `https://tasks.hagicode.com/rss.xml` — 200, missing |
+| OpenSpec Docs | `https://openspec.hagicode.com/` — 200 | `https://openspec.hagicode.com/sitemap-index.xml` — 200, found | `https://openspec.hagicode.com/robots.txt` — 200, found | `https://openspec.hagicode.com/rss.xml` — 200, found |
+| OmniRoute Docs | `https://omniroute.hagicode.com/` — 200 | `https://omniroute.hagicode.com/sitemap-index.xml` — 200, found | `https://omniroute.hagicode.com/robots.txt` — 200, found | `https://omniroute.hagicode.com/rss.xml` — 200, found |
+| Impeccable | `https://impeccable.hagicode.com/` — 200 | `https://impeccable.hagicode.com/sitemap-index.xml` — 200, found | `https://impeccable.hagicode.com/robots.txt` — 200, found | `https://impeccable.hagicode.com/rss.xml` — 200, found |
+| Hagilight Demo | `https://hagilight.hagicode.com/` — 200 | `https://hagilight.hagicode.com/sitemap-index.xml` — 200, found | `https://hagilight.hagicode.com/robots.txt` — 200, found | `https://hagilight.hagicode.com/rss.xml` — 200, found |
+
+The four unchanged JSON monitors also returned HTTP 200 at their configured URLs: Server Package Index (`https://index.hagicode.com/server/index.json`), Desktop Package Index (`https://index.hagicode.com/desktop/index.json`), Desktop Download Index (`https://desktop.dl.hagicode.com/index.json`), and Server Download Index (`https://server.dl.hagicode.com/index.json`). For all resource and JSON requests, the effective URL equaled the configured URL. Original homepage URLs without a trailing slash resolved to the same origin with `/`; the HagiCode Website homepage is the sole cross-host redirect.
+
+### Canonical paths and expectations
+
+Sitemap URLs use the published `Sitemap:` directive in `robots.txt` where available, backed by site deployment configuration: the canonical HagiCode, Docs, Design, Index, Trait, HagiTask, OpenSpec, OmniRoute, Impeccable, and Hagilight demo URLs use `/sitemap-index.xml`; newbe uses the Docusaurus-configured `/sitemap.xml`; Builder and Cost use their documented `/sitemap.xml`; Soul uses the path published by its robots file, `/sitemap.xml`. The status page does not publish discovery paths, so its root `/sitemap.xml`, `/robots.txt`, and `/rss.xml` entries are explicit intended-path assumptions and currently fail.
+
+Every robots URL is at the origin root. The default feed is `/rss.xml` for each site; the Docs, OpenSpec Docs, OmniRoute Docs, Impeccable, and Hagilight demo feeds are published there. Where no published feed link or deployment route establishes a feed, `/rss.xml` remains the intended default rather than being omitted. In particular, the HagiTask footer points to `/rss.xml`, but the observed response is HTML rather than a feed. The current root deployments use no additional base path; URLs with an observed or configured base path must retain it if that deployment contract changes.
+
+All sitemap monitors require the literal sitemap namespace, which accepts either sitemap-index or URL-set documents. Robots checks require `User-agent:`; RSS checks require `<rss`. These are case-sensitive native substring predicates, not regular expressions. The new homepage checks and every discovery-resource check accept only HTTP 200. Existing homepage status behavior is unchanged.
+
+### Probe snapshot and known failing baselines
+
+Snapshot from 2026-09-30. All 64 bounded GETs completed with an HTTP response; no endpoint was marked unavailable because of the probe environment. Of the 45 discovery resources, 33 returned HTTP 200 with their marker. Twelve remain configured as failures:
+
+- `https://www.hagicode.com/rss.xml`, `https://newbe.hagicode.com/rss.xml`, `https://builder.hagicode.com/rss.xml`, `https://cost.hagicode.com/rss.xml`, `https://design.hagicode.com/rss.xml`, `https://index.hagicode.com/rss.xml`, `https://soul.hagicode.com/rss.xml`, `https://trait.hagicode.com/rss.xml`, and `https://tasks.hagicode.com/rss.xml` returned HTTP 200 with `text/html` and no `<rss` marker.
+- `https://status.hagicode.com/sitemap.xml`, `https://status.hagicode.com/robots.txt`, and `https://status.hagicode.com/rss.xml` returned HTTP 404.
+
+These are observed endpoint baselines, not successful probes. Do not change the expected status, remove a marker, or remove a monitor to make the status page green. A failure opens or updates the normal GitHub Issues incident for that site/resource; repeated failures do not create another issue. On recovery, Upptime comments on and closes the existing incident. The scheduled uptime workflow remains at five-minute intervals; issue notification uses the repository's existing GitHub/notification configuration, with no new credentials or channel.
+
+The pinned `upptime/uptime-monitor@v1.42.6` evaluator compares `expectedStatusCodes` and the literal body predicate together. Its HTTP client follows up to three redirects by default, then evaluates the final response; a redirect loop, unsuccessful final status, TLS error, or timeout remains a failure. TLS verification stays enabled. A local fixture exercise against the pinned evaluator covered sitemap index and URL-set, robots, RSS and Atom markers, empty and HTML bodies, 404/500/201 responses, successful and failing redirects, redirect-limit exhaustion, and timeout. A local mocked lifecycle confirmed one resource-attributed issue on failure, no duplicate on repeated failure, and closure on recovery.
+
+### Reproducible checks
+
+Run this from `repos/upptime/` in the monorepo to parse the configuration and check its inventory and identities:
+
+```sh
+node <<'NODE'
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const yaml = require("js-yaml");
+const sites = yaml.load(fs.readFileSync(".upptimerc.yml", "utf8")).sites;
+const resources = sites.filter((site) => / (Sitemap|Robots|RSS)$/.test(site.name));
+const homes = sites.filter((site) => !site.url.endsWith(".json") && !/ (Sitemap|Robots|RSS)$/.test(site.name));
+const json = sites.filter((site) => site.url.endsWith(".json"));
+const slugs = sites.map((site) => site.slug || site.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""));
+assert.equal(homes.length, 15);
+assert.equal(resources.length, 45);
+assert.equal(json.length, 4);
+assert.equal(sites.length, 64);
+assert.equal(new Set(sites.map((site) => site.name)).size, sites.length);
+assert.equal(new Set(slugs).size, sites.length);
+for (const home of homes) {
+  for (const resource of ["Sitemap", "Robots", "RSS"]) {
+    const monitor = sites.find((site) => site.name === `${home.name} ${resource}`);
+    assert.ok(monitor, `${home.name} is missing ${resource}`);
+    assert.equal(monitor.expectedStatusCodes.join(","), "200");
+    assert.ok(monitor.slug);
+    assert.ok(monitor.__dangerous__body_down_if_text_missing);
+  }
+}
+console.log("64 monitors, 15 sites, 45 discovery resources, four JSON monitors; identities and coverage are unique.");
+NODE
+```
+
+Probe any listed URL with a bounded read-only GET. Set `marker` to the resource's expected literal above; omit the marker check for homepages and JSON endpoints. Repeat for every configured URL to refresh the snapshot:
+
+```sh
+url='https://docs.hagicode.com/sitemap-index.xml'
+marker='http://www.sitemaps.org/schemas/sitemap/0.9'
+body=$(mktemp)
+if ! curl --silent --show-error --location --max-redirs 3 \
+  --connect-timeout 4 --max-time 12 --max-filesize 10485760 \
+  --output "$body" --write-out 'HTTP %{http_code}; effective %{url_effective}\n' "$url"; then
+  rm -f "$body"
+  echo 'Probe unavailable; this is not evidence of an endpoint failure.' >&2
+  exit 1
+fi
+if grep -Fq -- "$marker" "$body"; then echo 'marker: present'; else echo 'marker: missing'; fi
+rm -f "$body"
+```
+
+The command does not use `--fail`, so HTTP error responses are recorded rather than hidden. A nonzero curl exit (for example, DNS/TLS/connection failure or the time/size bound) means the endpoint was not observed; it must not be documented as an HTTP failure.
+
 <!--start: status pages-->
 <!-- This summary is generated by Upptime (https://github.com/upptime/upptime) -->
 <!-- Do not edit this manually, your changes will be overwritten -->
