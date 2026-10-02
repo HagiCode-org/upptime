@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/hagicode.com.ico",
     "slug": "hagi-code-website",
     "status": "up",
-    "uptime": "99.23%",
+    "uptime": "99.24%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.23%",
+    "uptimeYear": "99.24%",
     "time": 560,
     "timeDay": 276,
     "timeWeek": 276,
@@ -64,18 +64,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.hagicode.com.ico",
     "slug": "hagi-code-website-rss",
     "status": "down",
-    "uptime": "4.84%",
-    "uptimeDay": "4.84%",
-    "uptimeWeek": "4.84%",
-    "uptimeMonth": "4.84%",
-    "uptimeYear": "4.84%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 178,
     "timeDay": 178,
     "timeWeek": 178,
     "timeMonth": 178,
     "timeYear": 178,
     "dailyMinutesDown": {
-      "2026-10-01": 4
+      "2026-10-02": 193,
+      "2026-10-01": 1053
     }
   },
   {
@@ -214,18 +215,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/newbe.hagicode.com.ico",
     "slug": "newbe-rss",
     "status": "down",
-    "uptime": "5.27%",
-    "uptimeDay": "5.27%",
-    "uptimeWeek": "5.27%",
-    "uptimeMonth": "5.27%",
-    "uptimeYear": "5.27%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 182,
     "timeDay": 182,
     "timeWeek": 182,
     "timeMonth": 182,
     "timeYear": 182,
     "dailyMinutesDown": {
-      "2026-10-01": 4
+      "2026-10-02": 193,
+      "2026-10-01": 1053
     }
   },
   {
@@ -290,18 +292,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/builder.hagicode.com.ico",
     "slug": "docker-compose-builder-rss",
     "status": "down",
-    "uptime": "5.83%",
-    "uptimeDay": "5.83%",
-    "uptimeWeek": "5.83%",
-    "uptimeMonth": "5.83%",
-    "uptimeYear": "5.83%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 345,
     "timeDay": 345,
     "timeWeek": 345,
     "timeMonth": 345,
     "timeYear": 345,
     "dailyMinutesDown": {
-      "2026-10-01": 4
+      "2026-10-02": 193,
+      "2026-10-01": 1052
     }
   },
   {
@@ -366,18 +369,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cost.hagicode.com.ico",
     "slug": "ai-cost-calculator-rss",
     "status": "down",
-    "uptime": "5.66%",
-    "uptimeDay": "5.66%",
-    "uptimeWeek": "5.66%",
-    "uptimeMonth": "5.66%",
-    "uptimeYear": "5.66%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 37,
     "timeDay": 37,
     "timeWeek": 37,
     "timeMonth": 37,
     "timeYear": 37,
     "dailyMinutesDown": {
-      "2026-10-01": 3
+      "2026-10-02": 193,
+      "2026-10-01": 1052
     }
   },
   {
@@ -406,18 +410,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.hagicode.com.ico",
     "slug": "hagi-code-status-sitemap",
     "status": "down",
-    "uptime": "5.91%",
-    "uptimeDay": "5.91%",
-    "uptimeWeek": "5.91%",
-    "uptimeMonth": "5.91%",
-    "uptimeYear": "5.91%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 220,
     "timeDay": 220,
     "timeWeek": 220,
     "timeMonth": 220,
     "timeYear": 220,
     "dailyMinutesDown": {
-      "2026-10-01": 3
+      "2026-10-02": 193,
+      "2026-10-01": 1052
     }
   },
   {
@@ -426,18 +431,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.hagicode.com.ico",
     "slug": "hagi-code-status-robots",
     "status": "down",
-    "uptime": "6.72%",
-    "uptimeDay": "6.72%",
-    "uptimeWeek": "6.72%",
-    "uptimeMonth": "6.72%",
-    "uptimeYear": "6.72%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 36,
     "timeDay": 36,
     "timeWeek": 36,
     "timeMonth": 36,
     "timeYear": 36,
     "dailyMinutesDown": {
-      "2026-10-01": 3
+      "2026-10-02": 193,
+      "2026-10-01": 1051
     }
   },
   {
@@ -446,18 +452,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.hagicode.com.ico",
     "slug": "hagi-code-status-rss",
     "status": "down",
-    "uptime": "7.52%",
-    "uptimeDay": "7.52%",
-    "uptimeWeek": "7.52%",
-    "uptimeMonth": "7.52%",
-    "uptimeYear": "7.52%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 177,
     "timeDay": 177,
     "timeWeek": 177,
     "timeMonth": 177,
     "timeYear": 177,
     "dailyMinutesDown": {
-      "2026-10-01": 3
+      "2026-10-02": 193,
+      "2026-10-01": 1051
     }
   },
   {
@@ -522,18 +529,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/design.hagicode.com.ico",
     "slug": "awesome-design-md-rss",
     "status": "down",
-    "uptime": "8.52%",
-    "uptimeDay": "8.52%",
-    "uptimeWeek": "8.52%",
-    "uptimeMonth": "8.52%",
-    "uptimeYear": "8.52%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 687,
     "timeDay": 687,
     "timeWeek": 687,
     "timeMonth": 687,
     "timeYear": 687,
     "dailyMinutesDown": {
-      "2026-10-01": 2
+      "2026-10-02": 193,
+      "2026-10-01": 1051
     }
   },
   {
@@ -676,18 +684,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/index.hagicode.com.ico",
     "slug": "hagi-code-index-rss",
     "status": "down",
-    "uptime": "8.87%",
-    "uptimeDay": "8.87%",
-    "uptimeWeek": "8.87%",
-    "uptimeMonth": "8.87%",
-    "uptimeYear": "8.87%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 179,
     "timeDay": 179,
     "timeWeek": 179,
     "timeMonth": 179,
     "timeYear": 179,
     "dailyMinutesDown": {
-      "2026-10-01": 2
+      "2026-10-02": 193,
+      "2026-10-01": 1051
     }
   },
   {
@@ -753,18 +762,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/soul.hagicode.com.ico",
     "slug": "soul-builder-rss",
     "status": "down",
-    "uptime": "9.82%",
-    "uptimeDay": "9.82%",
-    "uptimeWeek": "9.82%",
-    "uptimeMonth": "9.82%",
-    "uptimeYear": "9.82%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 569,
     "timeDay": 569,
     "timeWeek": 569,
     "timeMonth": 569,
     "timeYear": 569,
     "dailyMinutesDown": {
-      "2026-10-01": 2
+      "2026-10-02": 193,
+      "2026-10-01": 1050
     }
   },
   {
@@ -831,18 +841,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/trait.hagicode.com.ico",
     "slug": "trait-builder-rss",
     "status": "down",
-    "uptime": "12.83%",
-    "uptimeDay": "12.83%",
-    "uptimeWeek": "12.83%",
-    "uptimeMonth": "12.83%",
-    "uptimeYear": "12.83%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 825,
     "timeDay": 825,
     "timeWeek": 825,
     "timeMonth": 825,
     "timeYear": 825,
     "dailyMinutesDown": {
-      "2026-10-01": 2
+      "2026-10-02": 193,
+      "2026-10-01": 1050
     }
   },
   {
@@ -905,18 +916,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/tasks.hagicode.com.ico",
     "slug": "hagitask-rss",
     "status": "down",
-    "uptime": "12.76%",
-    "uptimeDay": "12.76%",
-    "uptimeWeek": "12.76%",
-    "uptimeMonth": "12.76%",
-    "uptimeYear": "12.76%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 208,
     "timeDay": 208,
     "timeWeek": 208,
     "timeMonth": 208,
     "timeYear": 208,
     "dailyMinutesDown": {
-      "2026-10-01": 1
+      "2026-10-02": 193,
+      "2026-10-01": 1050
     }
   },
   {
